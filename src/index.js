@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
       debugger;
       // if (event.target.nodeName === "LI"){
       //
-      // }
+       }
   })
 
   function renderBreeds(breeds){
