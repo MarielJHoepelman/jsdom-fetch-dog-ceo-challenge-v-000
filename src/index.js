@@ -15,8 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
       for (const element of json.message) {
         let image = document.createElement("img");
         image.setAttribute("src", element);
-
       }
-
     })
 })
