@@ -37,9 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let dropDown = document.getElementById("breed-dropdown")
 
     dropDown.addEventListener('change', event => {
-      debugger;
       let selection = event.target.value
-      debugger;
+      breeds.filter((elem) => { return elem.startsWith(selection) })
     })
   })
 
