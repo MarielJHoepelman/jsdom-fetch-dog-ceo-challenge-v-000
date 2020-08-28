@@ -34,6 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
         let breeds = Object.keys(json.message)
         let list = document.getElementById("dog-breeds")
         for (const element of breeds) {
+          let li = document.createElement("li");
+
 
         }
       })
