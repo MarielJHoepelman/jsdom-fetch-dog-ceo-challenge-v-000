@@ -39,8 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
     dropDown.addEventListener('change', event => {
       debugger;
       let selection = event.target.value
-      // if (event.target.nodeName === "LI"){
-      //
+      debugger;
     })
   })
 
