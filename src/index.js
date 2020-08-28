@@ -31,10 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   fetchUrl("https://dog.ceo/api/breeds/list/all").then(function(json){
     let breeds = Object.keys(json.message)
+    let dropDown = document.getElementById("breed-dropdown")
 
     renderBreeds(breeds)
-
-    let dropDown = document.getElementById("breed-dropdown")
 
     dropDown.addEventListener('change', event => {
       let selection = event.target.value
