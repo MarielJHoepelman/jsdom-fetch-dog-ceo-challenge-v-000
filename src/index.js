@@ -38,7 +38,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     dropDown.addEventListener('change', event => {
       let selection = event.target.value
-      breeds.filter((elem) => { return elem.startsWith(selection) })
+      let filteredBreeds = breeds.filter((elem) => { return elem.startsWith(selection) })
+
     })
   })
 
