@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //     })
   //   }
 
-    fetchUrl(https://dog.ceo/api/breeds/image/random/4).then(function(json){
+    fetchUrl("https://dog.ceo/api/breeds/image/random/4").then(function(json){
       for (const element of json.message) {
         let image = document.createElement("img");
         image.setAttribute("width", "304");
