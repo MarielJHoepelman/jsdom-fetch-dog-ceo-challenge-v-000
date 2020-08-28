@@ -35,6 +35,12 @@ document.addEventListener('DOMContentLoaded', function() {
     renderBreeds(breeds)
 
     let dropDown = document.getElementById("breed-dropdown")
+
+    dropDown.addEventListener('click', event => {
+      debugger;
+      if (event.target.nodeName === "LI"){
+
+      }
   })
 
   function renderBreeds(breeds){
