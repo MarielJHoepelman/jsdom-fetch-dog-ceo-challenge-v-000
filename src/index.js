@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
           list.appendChild(li)
         }
 
-        list.addEventListener('click', event =>{
+        list.addEventListener('click', event => {
           if (event.target.nodeName === "BUTTON"){
             event.target.parentElement.remove()
           }
