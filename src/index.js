@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
       }
 
-      fetchUrl().then(function(json){
+      fetchUrl("https://dog.ceo/api/breeds/list/all").then(function(json){
         let breeds = Object.keys(json.message)
         let list = document.getElementById("dog-breeds")
         for (const element of breeds) {
