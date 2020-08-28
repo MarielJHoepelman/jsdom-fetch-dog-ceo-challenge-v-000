@@ -38,9 +38,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     dropDown.addEventListener('click', event => {
       debugger;
-      if (event.target.nodeName === "LI"){
-
-      }
+      // if (event.target.nodeName === "LI"){
+      //
+      // }
   })
 
   function renderBreeds(breeds){
