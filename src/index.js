@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       fetchBreeds().then(function(json){
+        debugger;
         console.log(json)
       })
 })
