@@ -19,4 +19,14 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.appendChild(image);
       }
     })
+
+    function fetchBreeds() {
+      return fetch("https://dog.ceo/api/breeds/list/all")
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(json){
+          return json
+        })
+      }
 })
