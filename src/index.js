@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let dropDown = document.getElementById("breed-dropdown")
 
-    dropDown.addEventListener('click', event => {
+    dropDown.addEventListener('change', event => {
       debugger;
       // if (event.target.nodeName === "LI"){
       //
