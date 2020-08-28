@@ -37,8 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
           let li = document.createElement("li");
           li.innerHTML = element
           list.appendChild(li)
-
-
         }
       })
 })
