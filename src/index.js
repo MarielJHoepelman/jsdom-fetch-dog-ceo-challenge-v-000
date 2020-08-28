@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
       fetchUrl("https://dog.ceo/api/breeds/list/all").then(function(json){
         let breeds = Object.keys(json.message)
         let list = document.getElementById("dog-breeds")
+
         for (const element of breeds) {
           let li = document.createElement("li");
           li.innerHTML = element
@@ -34,6 +35,11 @@ document.addEventListener('DOMContentLoaded', function() {
             event.target.style.color = "pink";
           }
         })
+
+
+
+
+
       })
 
 
