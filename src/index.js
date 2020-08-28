@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       fetchBreeds().then(function(json){
-        debugger;
-        console.log(json)
+        let breeds = Object.keys(json.message)
+        for (const element of )
       })
 })
