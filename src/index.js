@@ -35,6 +35,8 @@ document.addEventListener('DOMContentLoaded', function() {
         let list = document.getElementById("dog-breeds")
         for (const element of breeds) {
           let li = document.createElement("li");
+          li.innerHTML = element
+          list.appendChild(li)
 
 
         }
