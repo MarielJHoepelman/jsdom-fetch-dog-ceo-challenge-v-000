@@ -23,6 +23,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   let list = document.getElementById("dog-breeds")
 
+  list.addEventListener('click', event => {
+    if (event.target.nodeName === "LI"){
+      event.target.style.color = "pink";
+    }
+  })
   fetchUrl("https://dog.ceo/api/breeds/list/all").then(function(json){
     let breeds = Object.keys(json.message)
 
