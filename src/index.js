@@ -40,9 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         list.addEventListener('click', event => {
-          if (event.target.nodeName === "BUTTON"){
-            event.target.parentElement.remove()
-          }
+          de
         })
       })
 
