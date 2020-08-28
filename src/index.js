@@ -26,11 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
   fetchUrl("https://dog.ceo/api/breeds/list/all").then(function(json){
     let breeds = Object.keys(json.message)
 
-    for (const element of breeds) {
-      let li = document.createElement("li");
-      li.innerHTML = element
-      list.appendChild(li)
-    }
+    renderBreeds(breeds)
 
     list.addEventListener('click', event => {
       if (event.target.nodeName === "LI"){
