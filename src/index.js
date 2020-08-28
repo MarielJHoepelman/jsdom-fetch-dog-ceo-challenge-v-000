@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         list.addEventListener('click', event => {
           debugger;
-          // if (event.target.nodeName === "BUTTON"){
-          //   event.target.parentElement.remove()
-          // }
+          if (event.target.nodeName === "li"){
+            
+          }
         })
       })
 
