@@ -51,6 +51,4 @@ document.addEventListener('DOMContentLoaded', function() {
       list.appendChild(li)
     }
   }
-
-
 })
