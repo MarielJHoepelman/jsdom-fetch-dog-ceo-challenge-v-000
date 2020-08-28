@@ -27,13 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
     let breeds = Object.keys(json.message)
 
     renderBreeds(breeds)
-
-    list.addEventListener('click', event => {
-      if (event.target.nodeName === "LI"){
-        event.target.style.color = "pink";
-      }
-    })
-
   })
 
   function renderBreeds(breeds){
