@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
   })
 
   function renderBreeds(breeds){
+    list.innerHTML = ""
     for (const element of breeds) {
       let li = document.createElement("li");
       li.innerHTML = element
