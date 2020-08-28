@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         list.addEventListener('click', event => {
           debugger;
-          if (event.target.nodeName === "li"){
+          if (event.target.nodeName === "LI"){
             event.target.style.color = "red";
           }
         })
