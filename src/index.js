@@ -32,8 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
       fetchBreeds().then(function(json){
         let breeds = Object.keys(json.message)
+        let list = document.getElementById("dog-breeds")
         for (const element of breeds) {
-          
+
         }
       })
 })
