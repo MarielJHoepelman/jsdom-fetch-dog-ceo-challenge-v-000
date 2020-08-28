@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     fetchImages().then(function(json){
       for (const element of json.message) {
-        document.createElement("img");
+        let image = document.createElement("img");
 
       }
 
