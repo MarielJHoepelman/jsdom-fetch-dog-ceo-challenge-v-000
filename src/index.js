@@ -28,11 +28,13 @@ document.addEventListener('DOMContentLoaded', function() {
       event.target.style.color = "pink";
     }
   })
-  
+
   fetchUrl("https://dog.ceo/api/breeds/list/all").then(function(json){
     let breeds = Object.keys(json.message)
 
     renderBreeds(breeds)
+
+    let dropDown = document.getElementById("breed-dropdown")
   })
 
   function renderBreeds(breeds){
