@@ -13,5 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     fetchImages().then(function(json){
         console.log(json);
+        debugger;
     })
 })
