@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log('%c HI', 'color: firebrick')
 
   function fetchUrl(url) {
-    return fetch("https://dog.ceo/api/breeds/image/random/4")
+    return fetch(url)
       .then(function(response) {
         return response.json();
       })
