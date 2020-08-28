@@ -29,4 +29,8 @@ document.addEventListener('DOMContentLoaded', function() {
           return json
         })
       }
+
+      fetchBreeds().then(function(json){
+        console.log(json)
+      })
 })
