@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let image = document.createElement("img");
         image.setAttribute("width", "304");
         image.setAttribute("src", element);
-        document.body.appendChild(image);
+        dogContainer.appendChild(image);
       }
     })
 
