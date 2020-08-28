@@ -12,7 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     fetchImages().then(function(json){
-        console.log(json);
-        debugger;
+      for (const element of json.message) {
+        document.createElement("img");
+
+      }
+      document.createElement("image");
     })
 })
